@@ -1,6 +1,6 @@
 import { Elysia, t } from 'elysia';
 import { cors } from '@elysiajs/cors';
-import { generateResponse } from './gemini';
+import { generateResponse } from './openrouter';
 import fs from 'fs/promises';
 import path from 'path';
 import type { ChildProcess } from 'child_process';
